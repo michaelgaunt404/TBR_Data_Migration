@@ -1,7 +1,7 @@
-name: "TBR_Data_Migration"
+name: TBR_Data_Migration
 output_dir: ../docs
 navbar:
-  title: "TBR_Data_Migration"
+  title: TBR_Data_Migration
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/michaelgaunt404/TBR_Data_Migration
 output:
   workflowr::wflow_html:
     toc: yes
